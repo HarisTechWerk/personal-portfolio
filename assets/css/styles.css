@@ -1,0 +1,19 @@
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Home Section */
+#home {
+  background: url('../images/home-background.jpg') no-repeat center center/cover;
+  color: white;
+}
+
+/* Adjust navbar link colors */
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: rgba(0, 0, 0, 1);
+}

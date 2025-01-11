@@ -17,3 +17,8 @@ html {
 .navbar-light .navbar-nav .nav-link.active {
   color: rgba(0, 0, 0, 1);
 }
+
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
